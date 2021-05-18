@@ -65,10 +65,11 @@ $('#startBtn').on('click', function() {
 
         if (playerScore == 3 || computerScore == 3) {
             
-            $('button:eq(4)').prop('disabled', false);
             $('button:lt(4)').prop('disabled', true);
 
             setTimeout( function() {
+                $('button:eq(4)').prop('disabled', false);
+
                 $('.playerImg').remove();
                 $('.computerImg').remove();
                 $('.result-msg').remove();
@@ -123,10 +124,11 @@ $('#startBtn').on('click', function() {
 
         if (playerScore == 3 || computerScore == 3) {
             
-            $('button:eq(4)').prop('disabled', false);
             $('button:lt(4)').prop('disabled', true);
 
             setTimeout( function() {
+                $('button:eq(4)').prop('disabled', false);
+                
                 $('.playerImg').remove();
                 $('.computerImg').remove();
                 $('.result-msg').remove();
@@ -181,10 +183,10 @@ $('#startBtn').on('click', function() {
 
         if (playerScore == 3 || computerScore == 3) {
             
-            $('button:eq(4)').prop('disabled', false);
             $('button:lt(4)').prop('disabled', true);
 
             setTimeout( function() {
+                $('button:eq(4)').prop('disabled', false);
                 $('.playerImg').remove();
                 $('.computerImg').remove();
                 $('.result-msg').remove();
