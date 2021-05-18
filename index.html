@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mortal Kombat</title>
+</head>
+
+<body>
+    <div class="bgContainer">
+
+        <div class="main-title">
+            <h1 class="title-text">Mortal</h1>
+            <img src="./assets/img/logo.png" alt="Logo" class="logo">
+            <h1 class="title-text">Kombat</h1>
+        </div>
+    
+        <div id="gameContainer" class="game-container">
+            <div id="playerSide">
+                <img src="./assets/img/scorpion.gif" alt="Scorpion" id="scorpion" class="scorpion">
+            </div>
+
+            <div id="result" class="result"></div>
+
+            <div id="computerSide" class="computer-side">
+                <img src="./assets/img/subzero.gif" alt="Sub-Zero" id="subzero" class="subzero">
+            </div>
+        </div>
+
+        <div class="allBtns">
+            <div id="btnContainer" class="btn-container">
+                <button type="button" id="rockBtn" class="choice rock-btn btn" data-value="rock"><span class="btn-text">Pierre</span></button>
+                <button type="button" id="paperBtn" class="choice paper-btn btn" data-value="paper"><span class="btn-text">Papier</span></button>
+                <button type="button" id="cisorBtn" class="choice scissor-btn btn" data-value="scissor"><span class="btn-text">Ciseaux</span></button>
+            </div>
+
+            <div id="scoreContainer" class="start-btn-container">
+                
+                <button type="button" id="startBtn" class="start-btn btn"><span class="btn-text">Jouer</span></button>
+                <button type="button" id="restartBtn" class="restart-btn btn"><span class="btn-text">Recommencer</span></button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
